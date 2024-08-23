@@ -33,6 +33,7 @@ const Dynamic: NextPage = (props: {
     const data = await fetch("/api/hello").then((res) => res.json());
     setClientSideData(data);
   };
+
   return (
     <Container tag="main">
       <h1 className="my-5">Como funcionam as renderizações do Next.js</h1>
